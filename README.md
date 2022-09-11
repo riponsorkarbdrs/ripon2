@@ -1,1 +1,61 @@
-# Google-From
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google From</title>
+</head>
+<body style="font-size: 20px; color: blue;">
+    <br>
+   
+    <marquee style=" color: red;" behavior="text-align" direction="text">Welcome To My Web Site</marquee>
+    <h1 style="text-align: center;"><b><u>Sing In From</u></b></h1>
+    <hr>
+    <label for="user"> Name:</label>
+    <input type="text" id="user" name="user name" placeholder="@username">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="usermail" id="email" placeholder="@usermail" required>
+    <br><br>
+    <label for="pass">Password:</label>
+    <input type="password" name="pass" id="pass" placeholder="password" required>
+    <br><br>
+    <label for="phn">Phone number:</label><br>
+    <select name="code">
+<option value="+Bangladesh">+880</option>
+
+</select>
+    <input type="number" name=" number" id="phn" placeholder="123456789"required>
+    <br><br>
+    <label for="color">Color:</label>
+    <input type="color" name="color" id="cl"> <br><br>
+   Gender:
+   
+    <input type="radio" name="gender" id="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Female">
+  <label for="Female">Female</label>
+  <br><br>
+  <label for="time">Time:</label>
+  <input type="time" name="time" id="time">
+  <br><br>
+  <label for="date">Date Of Birth:</label>
+  <input type="date" name="date" id="date">
+  <br><br>
+  <label for="file">Choice photo:</label>
+  <input type="file" name="file" id="file">
+  <br><br>
+  <textarea name="comment" id="cm" cols="10" rows="10">Your comment</textarea>
+  <br><br>
+<input type="checkbox" name="1" id="1">
+<label for="1">The bike</label> 
+<input type="checkbox" name="2" id="2">
+<label for="2">The bycycle</label>
+<br><br>
+<input type="submit" value="submit">
+<input type="reset" value="Reset">
+  <br><br>
+
+</body>
+</html>
